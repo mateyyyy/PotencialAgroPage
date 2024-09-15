@@ -1,0 +1,21 @@
+#quienesSomos{
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5vw;
+    text-align: justify;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#PrincipalContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
