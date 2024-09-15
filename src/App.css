@@ -52,6 +52,11 @@ align-items: center;
   color: #81b528;
 }
 
+#PiePagina{
+  width: 100vw;
+}
+
+
 @media (max-width: 768px) {
   /* Estilos específicos para pantallas pequeñas */
   #PrincipalDiv, #TercerDiv, #SecundaryDiv{
