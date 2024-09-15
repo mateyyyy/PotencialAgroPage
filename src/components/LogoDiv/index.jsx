@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../../../logov7.png'
+import logo from '../../assets/logov7.png'
 import styles from './LogoDiv.module.css'
 
 export default function LogoDiv() {

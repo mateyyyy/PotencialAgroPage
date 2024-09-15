@@ -1,5 +1,4 @@
 import './App.css'
-import Descripcion from './components/Descripcion'
 import LogoDiv from './components/logoDiv'
 import SegundoApartado from './components/SegundoApartado'
 import TercerApartado from './components/TercerApartado'
