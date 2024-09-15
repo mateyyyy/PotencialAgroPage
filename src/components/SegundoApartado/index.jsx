@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './TercerApartado.module.css'
+import styles from './SegundoApartado.module.css'
 import { MdOutlineLineAxis } from "react-icons/md";
 import { MdOutlineSensors } from "react-icons/md";
 import { BsRobot } from "react-icons/bs";

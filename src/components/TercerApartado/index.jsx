@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './SegundoApartado.module.css'
+import styles from './TercerApartado.module.css'
 
 export default function TercerApartado() {
   return (
