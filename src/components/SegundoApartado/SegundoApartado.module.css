@@ -27,7 +27,23 @@
     transition: .5s;
 }
 
+
+@media (min-width: 769px) {
+    .cardContainer:hover{
+        margin-top: -2vw;
+        transition: 1s;
+    }
+}
+
+@media (max-width: 768px) {
+#PrincipalContainer{
+    flex-direction: column;
+    align-content: center;
+}
 .cardContainer:hover{
-    margin-top: -2vw;
+    padding: 1vw;
     transition: 1s;
 }
+
+    
+  }
