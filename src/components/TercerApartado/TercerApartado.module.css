@@ -1,21 +1,37 @@
 #quienesSomos{
     font-size: 4vw;
     display: flex;
-    justify-content: center;
-}
-
-p{
-    justify-content: center;
-    align-content: center;
-    font-size: 1.5vw;
-    text-align: justify;
-    padding-left: 5vw;
-    padding-right: 5vw;
 }
 
 #PrincipalContainer{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#capturaMain{
+    margin-top: -5vw;
+    width: 35%;
+    height: auto;
+}
+
+
+#downloadAPP{
+    width: 10%;
+    height: auto;
+}
+
+#downloadSites{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#downloadSites img{
+    width: 15%;
 }

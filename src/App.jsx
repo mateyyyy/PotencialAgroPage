@@ -3,6 +3,7 @@ import LogoDiv from './components/LogoDiv';
 import TercerApartado from './components/TercerApartado'
 import SegundoApartado from './components/SegundoApartado'
 import Footer from './components/Footer';
+import ProyectoApartado from './components/ProyectoApartado';
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
 
       <div id='TercerDiv'>
         <TercerApartado></TercerApartado>
+      </div>
+
+      <div id='DocumentacionDiv'>
+        <ProyectoApartado/>
       </div>
 
       <div id='PiePagina'>

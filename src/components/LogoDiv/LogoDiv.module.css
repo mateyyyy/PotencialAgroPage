@@ -13,10 +13,12 @@
     }
     50% {
       filter: drop-shadow(
-        0 0 10px rgba(87, 179, 74, 0.7)
+        0 0 7px rgba(87, 179, 74, 0.7)
       ); /* Sombra e iluminación */
     }
     100% {
       filter: none;
     }
   }
+
+  
