@@ -1,6 +1,6 @@
 .footer {
-    background-color: #0f3040;
-    color: white;
+    background-color: #e0e7df;
+    color: black;
     padding: 20px;
     text-align: center;
   }
@@ -38,7 +38,7 @@
   
   .links li a {
     text-decoration: none;
-    color: white;
+    color: black;
   }
   
   .links li a:hover {

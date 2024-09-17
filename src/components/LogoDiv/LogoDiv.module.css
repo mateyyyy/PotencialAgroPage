@@ -2,4 +2,21 @@
     width: 70%;
     height: 70%;
     min-width: 30%;
+    animation: alternarSombra 4s infinite;
+    transition: .5s;
 }
+
+
+@keyframes alternarSombra {
+    0% {
+      filter: none;
+    }
+    50% {
+      filter: drop-shadow(
+        0 0 10px rgba(87, 179, 74, 0.7)
+      ); /* Sombra e iluminación */
+    }
+    100% {
+      filter: none;
+    }
+  }
