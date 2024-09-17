@@ -3,21 +3,30 @@
     height: 100vh;
 }
 
-#volverBoton{
-    background: none;
-    border: none;
-    outline: none;
+
+@media (min-width: 768px) {
+    /* Estilos específicos para pantallas pequeñas */
+    #volverBoton{
+        background: none;
+        border: none;
+        outline: none;
+    }
+    
+    #logo{
+        width: 5vw;
+    }
+    
+    #iconosSuperiores{
+        margin-top: 3vh;
+        height: 2vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
-#logo{
-    width: 5vw;
-}
 
-#iconosSuperiores{
-    margin-top: 3vh;
-    height: 2vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+@media (max-width: 768px) {
+    
 }
