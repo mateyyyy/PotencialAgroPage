@@ -35,3 +35,16 @@
 #downloadSites img{
     width: 15%;
 }
+
+@media (max-width: 768px) {
+
+    #capturaMain{
+        width: 70%;
+
+    }
+
+    #downloadSites img{
+        width: 35%;
+    }
+
+}

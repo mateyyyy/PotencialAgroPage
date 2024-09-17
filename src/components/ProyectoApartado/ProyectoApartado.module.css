@@ -57,9 +57,8 @@
 
 
 @media (max-width: 768px) {
-    /* Estilos específicos para pantallas pequeñas */
-    .cardInfoH3{
-      font-size: 1vh;
+    .Card{
+        width: 30%;
     }
 }
   
