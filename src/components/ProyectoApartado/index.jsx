@@ -4,6 +4,7 @@ import { RiOrganizationChart } from "react-icons/ri";
 import { GrDocumentUser } from "react-icons/gr";
 import { GiArrowScope } from "react-icons/gi";
 import { HiClipboardDocumentCheck } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 
 
 export default function ProyectoApartado() {
@@ -19,29 +20,29 @@ export default function ProyectoApartado() {
               </div>
             </a>
 
-            <a href="">
+            <Link to={"/alcance"}>
               <div className={styles.cardInfo}>
                 <GiArrowScope style={{ width: '5vw', height: 'auto' }}/>
                 <h3 className={styles.cardInfoH3}>ALCANCE DEL PROYECTO</h3>
               </div>
-            </a>
+            </Link>
 
           </div>
 
           <div className={styles.Card}>
-            <a href="">
+            <Link to={"/acta"}>
               <div className={styles.cardInfo}>
                 <GrDocumentUser style={{ width: '5vw', height: 'auto' }}/>
                 <h3 className={styles.cardInfoH3}>ACTA DE CONSTITUCION</h3>
               </div>
-            </a>
+            </Link>
 
-            <a href="">
+            <Link to={"/requisitos"}>
               <div className={styles.cardInfo}>
                 <HiClipboardDocumentCheck  style={{ width: '5vw', height: 'auto' }}/>
                 <h3 className={styles.cardInfoH3}>DOCUMENTO DE REQUISITOS</h3>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
     </>

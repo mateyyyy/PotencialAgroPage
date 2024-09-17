@@ -1,0 +1,23 @@
+#PrinDiv{
+    width: 100vw;
+    height: 100vh;
+}
+
+#iconosSuperiores{
+    margin-top: 3vh;
+    height: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#volverBoton{
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#logo{
+    width: 5vw;
+}
