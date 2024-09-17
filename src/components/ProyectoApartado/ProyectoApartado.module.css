@@ -28,7 +28,8 @@
 .cardInfo{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    height: 60%;
+    justify-content: space-evenly;
     align-items: center;
     border-radius: 10px;
     padding: 1vw;
@@ -47,3 +48,18 @@
 #titulo{
     color: #81B527;
 }
+
+
+.cardInfo h3{
+    font-size: .9vw;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    /* Estilos específicos para pantallas pequeñas */
+    .cardInfoH3{
+      font-size: 1vh;
+    }
+}
+  

@@ -1,6 +1,6 @@
 #logoImg{
     width: 70%;
-    height: 70%;
+    height: auto;
     min-width: 30%;
     animation: alternarSombra 4s infinite;
     transition: .5s;

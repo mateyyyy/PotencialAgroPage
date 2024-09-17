@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './ProyectoApartado.module.css'
 import { RiOrganizationChart } from "react-icons/ri";
 import { GrDocumentUser } from "react-icons/gr";
+import { GiArrowScope } from "react-icons/gi";
+import { HiClipboardDocumentCheck } from "react-icons/hi2";
 
 
 export default function ProyectoApartado() {
@@ -13,32 +15,31 @@ export default function ProyectoApartado() {
             <a href="">
               <div className={styles.cardInfo}>
                 <RiOrganizationChart style={{ width: '5vw', height: 'auto' }}/>
-                <h3>ORGANIGRAMA</h3>
+                <h3 className={styles.cardInfoH3}>ORGANIGRAMA</h3>
               </div>
             </a>
 
             <a href="">
               <div className={styles.cardInfo}>
-                <GrDocumentUser style={{ width: '5vw', height: 'auto' }}/>
-                <h3>ALCANCE DEL PROYECTO</h3>
+                <GiArrowScope style={{ width: '5vw', height: 'auto' }}/>
+                <h3 className={styles.cardInfoH3}>ALCANCE DEL PROYECTO</h3>
               </div>
             </a>
 
           </div>
 
           <div className={styles.Card}>
-            
-          <a href="">
+            <a href="">
               <div className={styles.cardInfo}>
                 <GrDocumentUser style={{ width: '5vw', height: 'auto' }}/>
-                <h3>ACTA DE CONSTITUCION</h3>
+                <h3 className={styles.cardInfoH3}>ACTA DE CONSTITUCION</h3>
               </div>
             </a>
 
             <a href="">
               <div className={styles.cardInfo}>
-                <GrDocumentUser style={{ width: '5vw', height: 'auto' }}/>
-                <h3>DOCUMENTO DE REQUISITOS</h3>
+                <HiClipboardDocumentCheck  style={{ width: '5vw', height: 'auto' }}/>
+                <h3 className={styles.cardInfoH3}>DOCUMENTO DE REQUISITOS</h3>
               </div>
             </a>
           </div>

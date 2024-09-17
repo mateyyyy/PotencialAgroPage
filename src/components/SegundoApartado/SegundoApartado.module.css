@@ -12,6 +12,10 @@
     font-size: 2vw;
 }
 
+p{
+    font-size: 1vw;
+}
+
 .cardContainer{
     width: 100%;
     height: 70%;
@@ -36,14 +40,24 @@
 }
 
 @media (max-width: 768px) {
-#PrincipalContainer{
-    flex-direction: column;
-    align-content: center;
-}
-.cardContainer:hover{
-    padding: 1vw;
-    transition: 1s;
-}
+    #PrincipalContainer{
+        flex-direction: column;
+        align-content: center;
+    }
+    .cardContainer:hover{
+        padding: 1vw;
+        transition: 1s;
+    }
+
+    .h2Title{
+        font-size: 2vh;
+
+    }
+
+    p{
+        font-size: 2vh;
+    }
+
 
     
   }
