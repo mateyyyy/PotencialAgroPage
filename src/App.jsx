@@ -17,15 +17,15 @@ function App() {
         <SegundoApartado></SegundoApartado>
       </div>
 
-      <div id='DocumentacionDiv'>
-        <ProyectoApartado/>
-      </div>
-
+    
       <div id='TercerDiv'>
         <TercerApartado></TercerApartado>
       </div>
 
-      
+      <div id='DocumentacionDiv'>
+        <ProyectoApartado/>
+      </div>
+
 
       <div id='PiePagina'>
         <Footer></Footer>

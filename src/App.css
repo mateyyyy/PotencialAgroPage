@@ -41,14 +41,12 @@ align-items: center;
 
 
 #TercerDiv{
-
   background-color: #111111;
   width: 99vw;
   height: 50vw;
   display: flex;
   align-content: center;
   align-items: center;
-
   color: #81b528;
 }
 
@@ -59,7 +57,8 @@ align-items: center;
   justify-content: center;
   width: 99vw;
   height: 70vh;
-  background-color: #0D2833;
+  background: -webkit-linear-gradient(180deg, #111111,#0d2833);                   
+  background: linear-gradient(180deg, #111111,#0d2833);                                          
 }
 
 #PiePagina{
