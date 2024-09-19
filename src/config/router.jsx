@@ -7,6 +7,7 @@ import Acta from "../pages/Acta/index.jsx";
 import Alcance from "../pages/Alcance/index.jsx";
 import Requisitos from "../pages/Requisitos/index.jsx";
 import EDT from '../pages/EDT';
+import Trazabilidad from "../pages/Trazabilidad/index.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,7 +34,10 @@ const router = createBrowserRouter([
     element: <EDT/>,
   },
 
-
+  {
+    path: "/trazabilidad",
+    element: <Trazabilidad/>,
+  },
 
 ]);
 

@@ -1,18 +1,22 @@
 .Card{
     width: 20%;
-    margin: 0 2vw 0 2vw;
     height: auto;
     display: flex;
+}
+#CardTrazabilidad{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
 }
 
 #PrinDiv{
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-content: center;
-
+    flex-wrap: wrap;
 }
 
 .tituloYbuton{
@@ -24,9 +28,6 @@
 
 .cardInfo{
     display: flex;
-    flex-direction: row;
-    height: 50%;
-    width: 100%;
     margin-bottom: 1vw;
     justify-content: start;
     align-items: center;
@@ -46,43 +47,22 @@
     text-align: center;
 }
 
-.link{
-    height: 100%;
-}
-
 @media (min-width: 792px) {
-    .Card{
-        width: 20%;
-        margin: 0 2vw 0 2vw;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        font-size: 1vw;
-        
-    }
-
     #PrinDiv{
         flex-direction: row;
+        gap: 2vw;
     }
 }   
 
 
 @media (max-width: 792px) {
-    .Card{
-        width: 60%;
-        height: auto;
-        flex-direction: column;
-    }
+
     .cardInfoH3{
         font-size: 1rem;
     }
 
     #PrinDiv{
         flex-direction: column;
-        align-items: center;
-
     }
 }
   
