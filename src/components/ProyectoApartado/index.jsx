@@ -13,12 +13,12 @@ export default function ProyectoApartado() {
       <h1 id={styles.titulo}>MANUALES Y DOCUMENTOS</h1>
         <div id={styles.PrinDiv}>
           <div className={styles.Card}>
-            <a href="" className={styles.link}>
+            <Link to={"/edt"} className={styles.link}>
               <div className={styles.cardInfo}>
                 <RiOrganizationChart style={{ width: '5vw', height: 'auto' }}/>
-                <h3 className={styles.cardInfoH3}>ORGANIGRAMA</h3>
+                <h3 className={styles.cardInfoH3}>EDT/WBS</h3>
               </div>
-            </a>
+            </Link>
 
             <Link to={"/alcance"} className={styles.link}>
               <div className={styles.cardInfo}>

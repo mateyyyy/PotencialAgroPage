@@ -6,7 +6,7 @@ import App from '../App.jsx';
 import Acta from "../pages/Acta/index.jsx";
 import Alcance from "../pages/Alcance/index.jsx";
 import Requisitos from "../pages/Requisitos/index.jsx";
-
+import EDT from '../pages/EDT';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -26,7 +26,14 @@ const router = createBrowserRouter([
   {
     path: "/requisitos",
     element: <Requisitos/>,
-  }
+  },
+
+  {
+    path: "/edt",
+    element: <EDT/>,
+  },
+
+
 
 ]);
 
