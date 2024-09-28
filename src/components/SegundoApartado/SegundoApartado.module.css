@@ -19,14 +19,15 @@ p{
 .cardContainer{
     width: 100%;
     height: 70%;
+    background-color: #81b528;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
     text-align: center;
     padding: 1vw;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 50px;    
-    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 16px;
     margin: 1vw;
     transition: .5s;
 }
