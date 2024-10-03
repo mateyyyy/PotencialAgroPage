@@ -9,7 +9,7 @@ import Requisitos from "../pages/Requisitos/index.jsx";
 import EDT from '../pages/EDT';
 import Trazabilidad from "../pages/Trazabilidad/index.jsx";
 import DiccionarioEDT from "../pages/DiccionarioEDT";
-import MatrizRiesgo from "../pages/matrizRiesgo/index.jsx";
+import MatrizRiesgo from "../pages/MatrizRiesgo/index.jsx";
 import Adquisiciones from "../pages/Adquisiciones/index.jsx";
 const router = createBrowserRouter([
   {
