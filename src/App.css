@@ -31,7 +31,7 @@ align-items: center;
 
 #SecundaryDiv{
   background-image: radial-gradient(circle, #d3e0cc, #bcd6a8, #a6cc82, #93c159, #81b527); 
-  height: 50vw;
+  height: 40vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,7 +55,6 @@ align-items: center;
   align-items: center;
   justify-content: center;
   width: 99vw;
-  height: 70vh;
   background: -webkit-linear-gradient(180deg, #111111,#0d2833);                   
   background: linear-gradient(180deg, #111111,#0d2833);                                          
 }
@@ -69,11 +68,13 @@ align-items: center;
 
 @media (max-width: 768px) {
   /* Estilos específicos para pantallas pequeñas */
-  #PrincipalDiv, #TercerDiv, #SecundaryDiv{
+  #PrincipalDiv, #TercerDiv{
     width: 100vw;
     height: 100vh;
   }
-
+  #SecundaryDiv, #DocumentacionDiv{
+    height: auto;
+  }
   
 
 }

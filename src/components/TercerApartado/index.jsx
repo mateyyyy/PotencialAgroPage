@@ -6,7 +6,7 @@ export default function TercerApartado() {
     <div id={styles.PrincipalContainer}>
         <h1 id={styles.titulo}>DESCARGA LA APP</h1>
         <div id={styles.capturas}>
-          <img src='./MenuFondoDegrade.png' alt="" className={styles.captura} />
+          <img src='./MenuFondoDegradeNoHeader.png' alt="" className={styles.captura} />
           <img src='./NotificacionIphone15.png' alt="" className={styles.captura} />
         </div>
         <div id={styles.downloadSites}>

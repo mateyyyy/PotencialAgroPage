@@ -6,6 +6,9 @@ import { GiArrowScope } from "react-icons/gi";
 import { HiClipboardDocumentCheck } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 import { PiListNumbersFill } from "react-icons/pi";
+import { FaBook } from "react-icons/fa";
+import { IoAlertCircleSharp } from "react-icons/io5";
+import { FaShoppingBag } from "react-icons/fa";
 
 
 export default function ProyectoApartado() {
@@ -44,9 +47,31 @@ export default function ProyectoApartado() {
           <Link to={"/trazabilidad"} className={styles.link}>
             <div className={styles.cardInfo}>
               <PiListNumbersFill  style={{ width: '5vw', height: 'auto' }}/>
-              <h3 className={styles.cardInfoH3}>Matriz de trazabilidad</h3>
+              <h3 className={styles.cardInfoH3}>MATRIZ DE TRAZABILIDAD</h3>
             </div>
           </Link>
+
+          <Link to={"/diccionario"} className={styles.link}>
+            <div className={styles.cardInfo}>
+              <FaBook  style={{ width: '5vw', height: 'auto' }}/>
+              <h3 className={styles.cardInfoH3}>DICCIONARIO EDT</h3>
+            </div>
+          </Link>
+
+          <Link to={"/matrizRiesgo"} className={styles.link}>
+            <div className={styles.cardInfo}>
+              <IoAlertCircleSharp  style={{ width: '5vw', height: 'auto' }}/>
+              <h3 className={styles.cardInfoH3}>MATRIZ DE RIESGOS</h3>
+            </div>
+          </Link>
+
+          <Link to={"/adquisiciones"} className={styles.link}>
+            <div className={styles.cardInfo}>
+              <FaShoppingBag  style={{ width: '5vw', height: 'auto' }}/>
+              <h3 className={styles.cardInfoH3}>DOCUMENTO DE ADQUISICIONES</h3>
+            </div>
+          </Link>
+
       </div>
 
     </div>

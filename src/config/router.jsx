@@ -8,6 +8,9 @@ import Alcance from "../pages/Alcance/index.jsx";
 import Requisitos from "../pages/Requisitos/index.jsx";
 import EDT from '../pages/EDT';
 import Trazabilidad from "../pages/Trazabilidad/index.jsx";
+import DiccionarioEDT from "../pages/DiccionarioEDT";
+import MatrizRiesgo from "../pages/matrizRiesgo/index.jsx";
+import Adquisiciones from "../pages/Adquisiciones/index.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,6 +40,22 @@ const router = createBrowserRouter([
   {
     path: "/trazabilidad",
     element: <Trazabilidad/>,
+  },
+
+  
+  {
+    path: "/diccionario",
+    element: <DiccionarioEDT/>,
+  },
+
+  {
+    path: "/matrizRiesgo",
+    element: <MatrizRiesgo/>,
+  },
+
+  {
+    path: "/adquisiciones",
+    element: <Adquisiciones/>,
   },
 
 ]);
